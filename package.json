@@ -1,0 +1,21 @@
+{
+  "name": "nippon_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aravindakumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mime": "^2.5.2",
+    "mongoose": "^5.13.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.9",
+    "shortid": "^2.2.16"
+  }
+}
